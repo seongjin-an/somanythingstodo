@@ -1,0 +1,44 @@
+{
+  "name": "seongjin",
+  "version": "1.0.0",
+  "description": "no-cra",
+  "main": "index.js",
+  "repository": "https://github.com/github.com/seongjin-an",
+  "author": "seongjin-an <seongjin4us@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack-dev-server --mode development --open --hot",
+    "build": "NODE_ENV=production webpack --mode production",
+    "start": "NODE_ENV=production webpack serve --config ./webpack.config.js --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/react": "^18.0.6",
+    "@types/react-dom": "^18.0.2",
+    "@types/styled-components": "^5.1.25",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass-loader": "^12.6.0",
+    "ts-loader": "^9.2.8",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-query": "^3.38.0",
+    "styled-components": "^5.3.5"
+  }
+}
